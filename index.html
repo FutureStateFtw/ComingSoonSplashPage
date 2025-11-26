@@ -23,7 +23,7 @@
         }
 
         .container {
-            max-width: 600px;
+            max-width: 700px;
             width: 100%;
         }
 
@@ -49,18 +49,59 @@
             font-weight: 700;
         }
 
-        .subtitle {
-            font-size: 1.25rem;
-            color: #4a5568;
+        h2 {
+            font-size: 2rem;
+            color: #1a202c;
             margin-bottom: 30px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            font-size: 1.35rem;
+            color: #2d3748;
+            margin-bottom: 20px;
+            line-height: 1.5;
+            font-weight: 500;
+        }
+
+        .subtitle-light {
+            font-size: 1.2rem;
+            color: #718096;
+            margin-bottom: 35px;
+            font-weight: 300;
+            letter-spacing: 0.3px;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(33, 147, 176, 0.08) 0%, rgba(109, 213, 237, 0.08) 100%);
+            border-left: 4px solid #2193b0;
+            padding: 25px 30px;
+            margin: 35px auto;
+            border-radius: 12px;
+            max-width: 550px;
+        }
+
+        .highlight-text {
+            font-size: 1.2rem;
+            color: #1a202c;
             line-height: 1.6;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .revolutionary {
+            color: #2193b0;
+            font-weight: 700;
+            font-size: 1.25rem;
         }
 
         .description {
-            font-size: 1rem;
-            color: #718096;
-            line-height: 1.8;
-            margin-bottom: 40px;
+            font-size: 1.05rem;
+            color: #4a5568;
+            line-height: 1.7;
+            margin-bottom: 0;
+            font-weight: 400;
         }
 
         .social-link {
@@ -102,8 +143,20 @@
                 font-size: 1.1rem;
             }
 
+            .subtitle-light {
+                font-size: 1.05rem;
+            }
+
+            .highlight-text {
+                font-size: 1.1rem;
+            }
+
             .description {
                 font-size: 0.95rem;
+            }
+
+            .highlight-box {
+                padding: 20px 20px;
             }
         }
     </style>
@@ -114,14 +167,19 @@
             <img src="assets/FutureState-RGB-Full-Color-Horizontal.png" alt="FutureState" class="logo">
             
             <h2>The Future of Campus ID Management</h2>
-            <br>
             
-            
-            <p class="description">
-                We're working hard to bring you something revolutionary. 
-                Modern identity management, seamless integrations, and innovative solutions 
-                designed specifically for higher education.
+            <p class="subtitle-light">
+                Our debut website is on the way.
             </p>
+            
+            <div class="highlight-box">
+                <p class="highlight-text">
+                    We're working hard to bring you something <span class="revolutionary">revolutionary</span>
+                </p>
+                <p class="description">
+                    Modern identity management, seamless integrations, and innovative solutions designed specifically for higher education.
+                </p>
+            </div>
             
             <a href="https://www.linkedin.com/company/futurestatecloud/" target="_blank" rel="noopener noreferrer" class="social-link">
                 <svg class="linkedin-icon" viewBox="0 0 24 24" fill="currentColor">
